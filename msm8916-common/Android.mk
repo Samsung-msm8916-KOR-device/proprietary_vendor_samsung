@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter j53gxx j5lte j5ltechn j5nlte,$(TARGET_DEVICE)),)
+ifneq ($(filter j53gxx j5lte j5ltechn j5nlte j3ltekx,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Lawnchair
